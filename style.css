@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(146, 235, 235);
+    height:1000px;
+    display:flex;
+    flex-direction: column;
+  
+    align-items: center;
+    overflow: scroll;
+
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+ 
+    font-size: 17vh;
+    text-align: center;
+}
+form{
+    box-shadow:0px 4px 10px rgba(0,0,0,0.1);
+    width:50vh;
+    max-width:100%;
+}
+input{
+    width:100%;
+    border:none;
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    display:block;
+    
+
+}
+.input::placeholder{
+    color:rgb(219, 210, 210)
+}
+.todolist{
+    padding:0;
+    margin:0;
+    list-style-type: none;
+    background-color: white;
+}
+
+.todolist  li.completed{
+    color:rgb(219, 210, 210);
+    text-decoration: line-through;
+}
+.todolist li{
+    border-top:1px solid rgb(121, 116, 116);
+    padding : 1rem 2rem;
+    font-size:1.5rem;
+    cursor:pointer;
+
+
+}
+
+small{
+    color:rgb(121, 116, 116);
+}
