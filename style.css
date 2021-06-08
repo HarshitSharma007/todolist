@@ -1,14 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 
-
+/* coral  navy crimson*/
+/* #5bccf6 -- sky */
+/* #2b6777 #c8d8e4 #ffffff #f2f2f2 #52ab98 -- green white grey */
 
 *{
     box-sizing: border-box;
 }
 
 body{
-    background-color: rgb(146, 235, 235);
+    background-color: #2b6777;
     height:1000px;
     display:flex;
     flex-direction: column;
@@ -20,21 +22,21 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 h1{
- 
-    font-size: 17vh;
+  color:#ffffff;
+    font-size: 15vh;
     text-align: center;
 }
 form{
     box-shadow:0px 4px 10px rgba(0,0,0,0.1);
     width:50vh;
-    max-width:100%;
+    min-width:50%;
 }
 input{
     width:100%;
     border:none;
     padding: 1rem 2rem;
     font-size: 2rem;
-    display:block;
+    /* display:block; */
     
 
 }
@@ -45,14 +47,16 @@ input{
     padding:0;
     margin:0;
     list-style-type: none;
-    background-color: white;
+    background-color: #c8d8e4
 }
 
 .todolist  li.completed{
-    color:rgb(219, 210, 210);
+    color:rgb(12, 6, 6);
     text-decoration: line-through;
+    background-color: #23d38ada;
 }
 .todolist li{
+    border-top:1px solid rgb(121, 116, 116);
     border-top:1px solid rgb(121, 116, 116);
     padding : 1rem 2rem;
     font-size:1.5rem;
@@ -62,5 +66,6 @@ input{
 }
 
 small{
-    color:rgb(121, 116, 116);
+    color:#fff;
 }
+
